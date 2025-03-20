@@ -1,0 +1,22 @@
+**Game Instructions - Space Battle**
+
+**Game Objective:**
+Two players control their spaceships and try to destroy the opponent by reducing their lives with gunfire. The player whose lives reach zero loses.
+
+**Controls:**
+- **Yellow Spaceship (Left):**
+- Movement: `W` (up), `A` (left), `S` (down), `D` (right)
+- Shooting: `Space`
+- **Red Spaceship (Right):**
+- Movement: `↑` (up), `←` (left), `↓` (down), `→` (right)
+- Shooting: `Enter`
+
+
+**Game Rules:**
+- The bullets move towards the opponent. If a bullet hits the opponent's spaceship, the opponent loses 1 life.
+- Each player starts with **10 lives**.
+- Each player can have **up to 3 bullets on the screen at the same time**.
+- The game ends when a player loses all of their lives.
+- A victory title appears on the screen to declare the winner.
+
+**Have fun! 🚀**
