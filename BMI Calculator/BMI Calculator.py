@@ -36,13 +36,13 @@ def BMI():
 
 # Icon and other images
 try:
-    image_icon = PhotoImage(file="bmi images/icon.png")
+    image_icon = PhotoImage(file="images/icon.png")
     root.iconphoto(False, image_icon)
 except:
     pass
 
 try:
-    top = PhotoImage(file="bmi images/top.png")
+    top = PhotoImage(file="images/top.png")
     Label(root, image=top, background='#f0f1f5').place(x=-10, y=-10)
 except:
     pass
@@ -50,14 +50,14 @@ except:
 Label(root, width=72, height=18, bg='lightblue').pack(side=BOTTOM)
 
 try:
-    box = PhotoImage(file="bmi images/box.png")
+    box = PhotoImage(file="images/box.png")
     Label(root, image=box).place(x=20, y=100)
     Label(root, image=box).place(x=240, y=100)
 except:
     pass
 
 try:
-    scale = PhotoImage(file="bmi images/scale.png")
+    scale = PhotoImage(file="images/scale.png")
     Label(root, image=scale, bg='lightblue').place(x=20, y=310)
 except:
     pass
@@ -107,7 +107,7 @@ Weight.set(get_current_value2())
 
 # Load original image using Pillow
 try:
-    original_pil_img = Image.open("bmi images/man.png")
+    original_pil_img = Image.open("images/man.png")
     original_width, original_height = original_pil_img.size
     pil_img = original_pil_img.copy()
     tk_img = ImageTk.PhotoImage(pil_img)
